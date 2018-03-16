@@ -7,7 +7,8 @@ ENV/
 env.bak/
 venv.bak/
 
-# idea/mac
+# idea/vscode/mac
 .DS_Store
 .idea/
+.vscode/
 __pycache__/
