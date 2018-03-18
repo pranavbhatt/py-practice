@@ -15,7 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url, include
+from rest_framework.documentation import include_docs_urls
+from py_rest_api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^$', views.api_root),
+    url(r'^docs/', include_docs_urls(title='Todo API', description='RESTful API for Todo Items')),
+    url(r'^', include('users.urls')),
+    url(r'^', include('todos.urls')),
 ]
