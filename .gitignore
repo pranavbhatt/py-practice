@@ -12,3 +12,4 @@ venv.bak/
 .idea/
 .vscode/
 __pycache__/
+db.*
