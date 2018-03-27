@@ -1,1 +1,5 @@
-[]
+[
+  "twit/tests/test_models.py::TestPost::()::test_model",
+  "twit/tests/test_models.py::TestPost::()::test_get_excerpt",
+  "twit/tests/test_views.py::TestHomeView::()::test_anonymous"
+]
