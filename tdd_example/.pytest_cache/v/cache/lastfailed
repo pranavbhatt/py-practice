@@ -1,1 +1,3 @@
-{}
+{
+  "twit/tests/test_views.py::TestAdminView::()::test_authenticated_user": true
+}
