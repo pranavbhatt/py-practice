@@ -13,3 +13,8 @@ venv.bak/
 .vscode/
 __pycache__/
 db.*
+settings.json
+launch.json
+
+#django
+htmlcov/
